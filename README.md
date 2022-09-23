@@ -19,7 +19,7 @@ One feature that will be added in a future update is automatic deletion of previ
 ---
 ## Deployed Page link
 
-
+https://toacin.github.io/Work-Day-Planner/
 
 ## Installation
 
