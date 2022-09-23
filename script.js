@@ -2,19 +2,10 @@ const currentDay = moment().format("dddd, LL");
 // console.log(currentDay);
 let $currentDay = $("#currentDay");
 // console.log(currentTime);
-let $9amInput = $("#9am");
-let $10amInput = $("#10am");
-let $11amInput = $("#11am");
-let $12pmInput = $("#12pm");
-let $1pmInput = $("#1pm");
-let $2pmInput = $("#2pm");
-let $3pmInput = $("#3pm");
-let $4pmInput = $("#4pm");
-let $5pmInput = $("#5pm");
 let $button = $("button");
-arrayof$Times = [$9amInput, $10amInput, $11amInput, $12pmInput, $1pmInput, $2pmInput, $3pmInput, $4pmInput, $5pmInput];
+arrayof$Times = [$("#9am"), $("#10am"), $("#11am"), $("#12pm"), $("#1pm"), $("#2pm"), $("#3pm"), $("#4pm"), $("#5pm")];
 
-arrayof$TimesID = [$9amInput.attr("id"), $10amInput.attr("id"), $11amInput.attr("id"), $12pmInput.attr("id"), $1pmInput.attr("id"), $2pmInput.attr("id"), $3pmInput.attr("id"), $4pmInput.attr("id"), $5pmInput.attr("id")];
+arrayof$TimesID = [$("#9am").attr("id"), $("#10am").attr("id"), $("#11am").attr("id"), $("#12pm").attr("id"), $("#1pm").attr("id"), $("#2pm").attr("id"), $("#3pm").attr("id"), $("#4pm").attr("id"), $("#5pm").attr("id")];
 
 $currentDay.text(currentDay);
 
